@@ -1,0 +1,164 @@
+header{
+   background-color: #5b7989 !important;
+   font-family: 'Dancing Script', cursive; 
+   border-radius: 10px 10px 0px 0px
+   background-color: #02010a; 
+   border-radius: 10px 10px 0px 0px;
+   width: 100%;
+}
+
+.titulo{
+	color: white;
+	-webkit-filter: drop-shadow( 2px 2px 2px #02010a);
+	filter: drop-shadow( 2px 2px 2px #02010a);
+	text-align: left;
+	padding-left: 20px;
+	display: inline-block;
+	animation: miAnimacion 5s;
+	-webkit-animation: miAnimacion 5s;
+}
+
+.nav{
+    float: right;
+    padding-top: 30px; 
+    padding-right: 20px;
+    display: inline-block;
+    animation: miAnimacion 5s;
+	-webkit-animation: miAnimacion 5s;
+}
+@-webkit-keyframes miAnimacion {
+    0%{
+     -webkit-transform: translateY(150%);
+     transform: translateY(150%);
+    }
+
+    60%{
+     -webkit-transform: translateY(-5%);
+     transform: translateY(-5%);
+    }
+
+    100%{
+     -webkit-transform: translateY(0%);
+     transform: translateY(0%);
+    }
+}
+
+
+#retrato{
+	text-decoration: none;
+}
+
+.row{
+	display: flex;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #d5c75f !important;
+    padding-bottom: 20px;
+}
+.img{
+	flex-direction: row;
+}
+
+body{
+font-family: 'Dancing Script', cursive; 
+background-color: #02010a;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+img{
+	width: 90%;
+}
+#img1 {
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+#img2{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img4{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img6{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img3 {
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+.footer{
+padding-top: 10px;
+padding-bottom: 10px;
+display: flex;
+
+}
+
+
+.f1{
+    flex-direction: row;
+    flex: 25%;
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+	background-color: #02010a;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #C6d5c5 !important;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.f1 {
+    flex-direction: row;
+}
+@media (min-width: 320px) and (max-width: 900px){
+ .inicio{
+   display: flex;
+   flex-direction: column;
+   padding-left: 30px;
+}
+.titulo{
+  flex: 100%;
+  text-align: center;
+}
+
+.nav{
+  flex: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   padding-left: 30px;
+}
+.f1{
+  flex: 25%;
+    text-align: left;
+}
+.row {
+ display: flex;
+ flex-direction: column;
+  
+}
+
+.img{ 
+flex: 25%;
+text-align: center; 
+}
+
+img{
+	padding: 35px;
+	}
+}
